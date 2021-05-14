@@ -11,7 +11,8 @@ public class Bishop extends ChessPiece {
 		super(board, color);
 		
 	}
-
+	
+    @Override
 	public String toString() {
 		return "B";
 	}
